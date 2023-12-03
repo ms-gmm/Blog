@@ -7,7 +7,7 @@ namespace Core
 {
    public class ServiceUrl
     {
-       
+       //test
         public string Uri { get; set; }
     }
 }
