@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31005.135
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.Api", "Blog.Api\Blog.Api.csproj", "{D4825567-DD74-4A87-99A1-615FE52AC72B}"
 EndProject
@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.Application", "Blog.Ap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.Common", "Blog.Common\Blog.Common.csproj", "{B302F61D-2BC2-4632-838E-30D2BD4DAE1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamService", "TeamService\TeamService.csproj", "{A9D14CF1-5313-43E8-8D2E-D27DAB69A489}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeamService", "TeamService\TeamService.csproj", "{A9D14CF1-5313-43E8-8D2E-D27DAB69A489}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AggregateService", "AggregateService\AggregateService.csproj", "{9C789862-3931-43A0-869F-399F1036C4F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AggregateService", "AggregateService\AggregateService.csproj", "{9C789862-3931-43A0-869F-399F1036C4F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{4F7E97C7-91DA-4A54-95DA-7D5DC225B62B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{4F7E97C7-91DA-4A54-95DA-7D5DC225B62B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Test", "Blog.Test\Blog.Test.csproj", "{F5B92591-3563-4CE9-8486-5BE540E62CAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{4F7E97C7-91DA-4A54-95DA-7D5DC225B62B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F7E97C7-91DA-4A54-95DA-7D5DC225B62B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F7E97C7-91DA-4A54-95DA-7D5DC225B62B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B92591-3563-4CE9-8486-5BE540E62CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B92591-3563-4CE9-8486-5BE540E62CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B92591-3563-4CE9-8486-5BE540E62CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B92591-3563-4CE9-8486-5BE540E62CAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

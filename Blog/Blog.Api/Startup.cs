@@ -1,13 +1,16 @@
+using Blog.Api.Migrations;
 using Blog.Api.Repository;
 using Blog.Application.AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using System;
+using System.Threading.Channels;
 
 
 namespace Blog.Api
@@ -53,6 +56,16 @@ namespace Blog.Api
             app.UseRouting();
 
             app.UseAuthorization();
+
+            //app.Use(async (context, next) =>
+            //{
+            //    await context.Response.WriteAsync("my middleware");
+            //    await next();
+            //});
+            //app.Run(async context =>
+            //{
+            //    await context.Response.WriteAsync("my middleware 2");
+            //});
 
             app.UseEndpoints(endpoints =>
             {
