@@ -10,5 +10,6 @@ namespace Blog.Test
 
         public string? Summary { get; set; }
         public string? Test1 { get; set; }
+        public int Test2 { get; set; }
     }
 }
