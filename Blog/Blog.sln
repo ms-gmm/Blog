@@ -15,7 +15,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AggregateService", "Aggrega
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{4F7E97C7-91DA-4A54-95DA-7D5DC225B62B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Test", "Blog.Test\Blog.Test.csproj", "{F5B92591-3563-4CE9-8486-5BE540E62CAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.Test", "Blog.Test\Blog.Test.csproj", "{F5B92591-3563-4CE9-8486-5BE540E62CAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{086E6BEF-B6BA-412B-96E2-57EEF1E577E6}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\DTS-665.sql = ..\..\..\DTS-665.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
