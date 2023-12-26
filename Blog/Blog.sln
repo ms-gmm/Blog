@@ -25,6 +25,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql1", "sql1", "{9B9C6EA4-339B-4FAC-8B1B-6CD6626CAC42}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\..\.gitconfig = ..\..\..\..\.gitconfig
+		1.txt = 1.txt
 		..\..\..\DTS-665 - 副本.sql = ..\..\..\DTS-665 - 副本.sql
 	EndProjectSection
 EndProject
