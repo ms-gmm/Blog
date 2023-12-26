@@ -29,6 +29,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql1", "sql1", "{9B9C6EA4-3
 		..\..\..\DTS-665 - 副本.sql = ..\..\..\DTS-665 - 副本.sql
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SqlS", "SqlS", "{AFF88651-0017-4ACB-A75D-6BB7B05D4EF4}"
+	ProjectSection(SolutionItems) = preProject
+		SqlScript\DTS-665 - 副本.sql = SqlScript\DTS-665 - 副本.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
