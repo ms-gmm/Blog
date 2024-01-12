@@ -13,9 +13,5 @@ namespace Blog.Api
         public DbSet<UserDto> User { get; set; }
         public DbSet<ArticleDto> Article { get; set; }
 
-        public void Configure(EntityTypeBuilder<UserDto> bulider)
-        {
-
-        }
     }
 }
